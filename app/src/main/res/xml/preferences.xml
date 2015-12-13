@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cat_zabbix" android:key="pref_key_zabbix_cat">
+        <EditTextPreference android:title="@string/pref_zabbix_host" android:key="pref_key_zabbix_host"/>
+        <EditTextPreference android:title="@string/pref_zabbix_port" android:key="pref_key_zabbix_port" android:defaultValue="80" />
+        <EditTextPreference android:title="@string/pref_zabbix_hostgroup_name" android:key="pref_key_zabbix_hostgroup"/>
+        <EditTextPreference android:title="@string/pref_zabbix_login" android:key="pref_key_zabbix_login"/>
+        <EditTextPreference android:title="@string/pref_zabbix_password" android:key="pref_key_zabbix_password"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_cat_wifi" android:key="pref_key_cat_wifi">
+        <EditTextPreference android:title="@string/pref_wifi_ssid" android:key="pref_key_wifi_ssid"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_credentials_cat" android:key="perf_key_cat_crednetials">
+        <EditTextPreference android:title="@string/pref_credentials_login" android:key="perf_key_credentials_login"/>
+        <EditTextPreference android:title="@string/pref_credentials_password" android:key="perf_key_credentials_password"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_gateway_cat" android:key="pref_key_cat_gateway">
+        <EditTextPreference android:title="@string/pref_gateway_host" android:key="perf_key_gateway_host"/>
+        <EditTextPreference android:title="@string/pref_gateway_port" android:key="perf_key_gateway_port"/>
+        <EditTextPreference android:title="@string/pref_gateway_login" android:key="perf_key_gateway_login"/>
+        <EditTextPreference android:title="@string/pref_gateway_password" android:key="perf_key_gateway_password"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CameraControl</string>
+    <string name="title_camera_detail">Camera Detail</string>
+
+    <string name="pref_cat_zabbix">Zabbix Server</string>
+    <string name="pref_zabbix_host">Host of Zabbix Server</string>
+    <string name="pref_zabbix_port">Port of Zabbix Server</string>
+    <string name="pref_zabbix_hostgroup_name">Name of the hostgroup to lookup</string>
+    <string name="pref_zabbix_login">Login</string>
+    <string name="pref_zabbix_password">Password</string>
+
+    <string name="pref_cat_wifi">Wifi Information</string>
+    <string name="pref_wifi_ssid">SSid of the home Wifi</string>
+
+    <string name="pref_credentials_cat">Login information (for the camera)</string>
+    <string name="pref_credentials_login">Login</string>
+    <string name="pref_credentials_password">Password</string>
+
+    <string name="pref_gateway_cat">Gateway (when not at home)</string>
+    <string name="pref_gateway_host">Host</string>
+    <string name="pref_gateway_port">Port</string>
+    <string name="pref_gateway_login">Login</string>
+    <string name="pref_gateway_password">Password</string>
+
+    <string name="menu_settings">Settings</string>
+</resources>
